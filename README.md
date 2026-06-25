@@ -1,5 +1,9 @@
 # FpsWithAscii - A First Person Shooter game rendered in ASCII
 
+```
+Disclaimer: Claude code is used.
+```
+
 A first-person shooter rendered entirely in ASCII characters, built with C++17
 and the Windows Console API. The architecture is split across three projects
 inside a single Visual Studio 2022 solution.
