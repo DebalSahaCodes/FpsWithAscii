@@ -1,4 +1,4 @@
-# ASCII Shooter — FPS with ECS & Event-Component System
+# FpsWithAscii - A First Person Shooter game rendered in ASCII
 
 A first-person shooter rendered entirely in ASCII characters, built with C++17
 and the Windows Console API. The architecture is split across three projects
