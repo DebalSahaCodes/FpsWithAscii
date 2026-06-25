@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BulletSystem.cpp">
+      <Filter>2_Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateSystem.cpp">
+      <Filter>2_Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>2_Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSystem.cpp">
+      <Filter>2_Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySystem.cpp">
+      <Filter>1_EventSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Systems.h">
+      <Filter>2_Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\EventSystem.h">
+      <Filter>1_EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ECS.h">
+      <Filter>0_ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Components.h">
+      <Filter>0_ECS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="2_Systems">
+      <UniqueIdentifier>{cbdb2d69-fe42-4267-954f-7e1bc59fd5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_EventSystem">
+      <UniqueIdentifier>{0aaf199a-d740-4466-9b1f-b1d9dd279c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0_ECS">
+      <UniqueIdentifier>{b6e6139f-e35e-4c8f-b2ad-47459a922cbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
